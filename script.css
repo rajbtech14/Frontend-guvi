@@ -1,0 +1,45 @@
+Skip to content
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.box1{
+    border: 2px solid blue;
+    width: 500px;
+    height: 250px;
+    padding-left: 30px;
+    background-color: rgb(255, 111, 154);
+    margin-left:10px;
+    margin: 5px;
+}
+
+.box2{
+    border: 2px solid rgb(37, 236, 74);
+    width: 500px;
+    height: 250px;
+    padding-left: 30px;
+    background-color: rgb(48, 28, 224);
+    margin-left: 10px;
+    margin: 5px;
+
+}
+
+
+
+.box3{
+    border: 2px double rgb(0, 0, 0);
+    width: 500px;
+    height: 250px;
+    padding-left: 30px;
+    background-color: rgb(170, 115, 248);
+    margin-left: 10px;
+    margin: 5px;
+}
+
+
