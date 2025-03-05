@@ -1,0 +1,56 @@
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+header,footer{
+    width: 100%;
+    background: rgb(61, 56, 56);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    flex: 3;
+    background: #657486;
+    padding: 30px;
+}
+
+aside{
+    flex: 1;
+    background: #6babfa;
+    padding: 30px;
+}
+
+
+
+/* //tablet devices */
+@media  screen and (max-width:765px) {
+
+    main,aside{
+        flex:100% ;
+    }
+}
+
+/* mobile responsive */
+@media (max-width:480px){
+    main,aside{
+       padding: 10px;
+       height: 400px;
+    }
+}
+
+
+@media (max-width:480px){
+    header,footer{
+       width: 100%;
+       background-color: palevioletred;
+       height: 200px;
+    }
+}
+
