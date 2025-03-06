@@ -2,62 +2,33 @@ Skip to content
 
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 0px;
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    display: flex;
+    background-color: rgb(51, 141, 141);
 }
 
-
-.box1{
-    border: 2px solid blue;
-    width: 500px;
-    height: 250px;
-    padding-left: 30px;
-    background-color: rgb(255, 111, 154);
-    margin-left:10px;
-    margin: 5px;
+.container {
+    display: flex;
+    border: 20px;
+    margin: 100px;
+    border-color: aqua;
+    padding: 20px;
 }
 
-.box2{
-    border: 2px solid rgb(37, 236, 74);
-    width: 500px;
-    height: 250px;
-    padding-left: 30px;
-    background-color: rgb(48, 28, 224);
-    margin-left: 10px;
-    margin: 5px;
-
+table {
+width: 100px;
+border: 10px;
+}
+th,tr {
+    justify-content: center;
+    align-content: baseline;
+    border: 2px;
 }
 
-
-
-.box3{
-    border: 2px double rgb(0, 0, 0);
-    width: 500px;
-    height: 250px;
-    padding-left: 30px;
-    background-color: rgb(170, 115, 248);
-    margin-left: 10px;
-    margin: 5px;
-}
-
-.container{
-
-    margin-top: 20px;
-    padding: 20px 30px;
-    background-color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    border-left-width: 0cqmax;
-    flex-direction: column-reverse;
-}
-
-.Sidebar{
-
-    padding: 50px ;
-    vertical-align: bottom;
-    vertical-align: bottom;
-    background-color: aqua;
-
-
+@media screen (max-width:765px) {
+    padding: 10px;
+       height: 400px;
+ 
 }
